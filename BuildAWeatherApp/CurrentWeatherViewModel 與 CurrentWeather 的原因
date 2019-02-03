@@ -1,0 +1,7 @@
+CurrentWeatherViewModel 與 CurrentWeather 的原因
+Viewmodel負責處理收到的值 再回傳給CurrentWeather作為顯示使用
+這樣可以使用多個不同的ViewModel來處理值作為選用方式
+可能是華氏 攝氏 之類的 或是想做其他的事情都在ViewModel處理
+盡量讓工作分配得清楚 一個東西做一件事情 不然就乾脆把所有程式都寫在一頁裡面就好了也不用什麼物件導向不知道要導去哪
+這樣會造成很大的工程要寫的時候分不清楚會很難多人分工處理
+MVC 的概念
